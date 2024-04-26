@@ -3,7 +3,6 @@ import math
 import matplotlib.pyplot as plt
 import scipy.optimize as sci
 import time
-from matplotlib.animation import FuncAnimation
 
 import FlowProps
 import PropCalc
