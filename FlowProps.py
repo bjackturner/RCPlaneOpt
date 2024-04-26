@@ -1,9 +1,8 @@
 import numpy as np
 
-"""
-Flow Properties contain functions and various flow properties in subsequent calculations. 
-The functions included are an atmospheric model from NASA, Mach, and Reynolds number calculators. 
-"""
+import PropCalc
+import Preprocessing
+import TakeoffCalc
 
 # Static temperature (k) model as a function of altitude (m) using standard atm
 def airTemp(h):
